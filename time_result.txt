@@ -1,0 +1,87 @@
+TIME 1000
+N 1000
+h = 0.1
+tau = 0.001
+
+1 thread:
+real	0m0.100s
+user	0m0.042s
+sys	0m0.000s
+
+3 thread:
+real	0m0.040s
+user	0m0.022s
+sys	0m0.000s
+
+5 thread:
+real	0m0.035s
+user	0m0.022s
+sys	0m0.000s
+
+7 thread:
+real	0m0.039s
+user	0m0.023s
+sys	0m0.000s
+
+9 thread:
+real	0m0.032s
+user	0m0.024s
+sys	0m0.000s
+
+
+TIME 300000
+N 9240
+h = 0.1
+tau = 0.001
+
+1 thread:
+real	1m55.898s
+user	1m50.923s
+sys	0m0.000s
+
+3 thread:
+real	0m31.854s
+user	0m57.323s
+sys	0m0.036s
+
+5 thread:
+real	0m18.843s
+user	0m56.647s
+sys	0m0.084s
+
+7 thread:
+real	0m16.054s
+user	0m57.281s
+sys	0m0.076s
+
+9 thread:
+real	0m12.989s
+user	0m57.184s
+sys	0m0.059s
+
+11 thread:
+real	0m12.048s
+user	0m57.111s
+sys	0m0.016s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
