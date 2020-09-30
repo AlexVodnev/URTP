@@ -12,6 +12,7 @@ double tau = 0.00001;
 int N = 1000;
 double y[1000][1000];
 
+//Коментарий...
 
 void podschet()
 {
